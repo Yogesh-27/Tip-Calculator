@@ -27,7 +27,7 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 40px;
     height: 440px;
     border-radius: 10px;
-    overflow:scroll;
+    overflow:hidden;
 }
 .tipper h1 {
     text-align: center;
@@ -142,11 +142,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 
-/* Small Devices (576px - 767px) */
+/*Extra Small Devices (576px - 767px) */
 @media (max-width: 576px) {
     .tipper {
         height: 510px;
         padding: 30px;
+        overflow: scroll;
     }
     .output-container{
         margin: auto;
@@ -163,7 +164,7 @@ input[type=number]::-webkit-outer-spin-button {
     }
     
 }
-
+/* Small Devices (576px - 767px) */
 @media (max-width: 767px){
     .tipper {
         height: 70%px;
