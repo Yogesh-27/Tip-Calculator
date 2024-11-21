@@ -166,7 +166,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 @media (max-width: 767px){
     .tipper {
-        height: 500px;
+        height: 70%;
     }
 }
 
